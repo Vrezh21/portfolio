@@ -5,7 +5,7 @@ import en from "./locales/en.json";
 import ru from "./locales/ru.json";
 import hy from "./locales/hy.json";
 
-const savedLanguage = localStorage.getItem("lang") || "ru";
+const savedLanguage = localStorage.getItem("lang") || "en";
 
 i18n.use(initReactI18next).init({
   resources: {
